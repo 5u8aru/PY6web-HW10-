@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+faker = "*"
+redis-lru = "*"
+redis = "*"
+mongoengine = "*"
+phonenumbers = "*"
+pymongo = {extras = ["gssapi", "snappy", "srv", "tls"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
